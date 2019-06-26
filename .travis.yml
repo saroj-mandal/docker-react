@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t sarojmandal/docker-react -f Docker.dev
+
+script:
+  - docker run sarojmandal/docker-react npm run test -- -- coverage

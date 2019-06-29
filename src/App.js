@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello there, this is cool bro! I am trying to upload this to aws. I am changing again in feature branch.
+          Hello there, this is cool bro! I am trying to upload this to aws. I am changing again in feature branch. made changes to t2.small.
         </p>
         <a
           className="App-link"
